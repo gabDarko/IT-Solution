@@ -1,0 +1,264 @@
+/* Fonts Google */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Reset CSS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+/* ------------------------- */
+
+/* Nav Bar */
+nav{
+    background-color: #1d1d20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+.menuNav{
+    display: flex;
+}
+
+/* Links Nav */
+.logoNav a{
+    margin-left: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+.menuNav a{
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;;
+    color: #fff;
+}
+
+
+/* Section Background */
+.sectionBg{
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: color;
+    height: 100vh;
+}
+/* Text Background */
+.sectionTitle{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sectionTitle h1, .sectionTitle p, button{
+    margin-bottom: 8px;
+    color: #fff;
+}
+/* Small P */
+.sectionTitle p{
+    font-size: 0.8em;
+}
+
+/* Padding center */
+.sectionTitle h1{
+    padding-top: 300px;
+    font-size: 2em;
+}
+/* Style Button */
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1d1d20;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;  
+    padding: 10px 40px;
+    transition: 300ms;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #1d1d20;
+    cursor: pointer;
+}
+
+
+/* Section Client */
+.sectionClient{
+    height: 250px;
+}
+.sectionClient h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.imageClient{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+/* Style image client */
+.imageClient img{
+    width: 90px;
+    height: 90px;
+    display: block;
+    max-width: 100%;
+}
+
+
+/* Information section */
+.sectionInfo{
+    background-color: #1d1d20;
+    height: 280px;
+}
+.sectionInfo h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding: 30px 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+.containerInfo{
+    display: flex;
+}
+.textInfo{
+    padding: 10px;
+    background-color: #4d4d4d;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Text P */
+.textInfo p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    padding-top: 5px;
+    color: #fff;
+}
+.textInfo span{
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    color: #fff;
+    font-weight: bolder;
+}
+.textInfo i{
+    color: #fff;
+}
+
+
+/* Product */
+.sectionProduct{
+    height: 650px;
+}
+
+.containerProduct{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.itemsProduct{
+    margin: 20px 0;
+    display: flex;
+}
+.itemsProduct p{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Right space icon */
+.itemsProduct i{
+    margin-right: 15px;
+    color: #1d1d20;
+}
+.sectionProduct h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 30px 0;
+}
+
+
+/* Persons */
+.sectionPersons{
+    height: 750px;
+    background-color: #1d1d20;
+}
+.sectionPersons h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.itemsPersons{
+    max-width: 950px;
+    background-color: #4d4d4d;
+    margin: 0 auto 30px auto;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.itemsPersons p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    color: #fff;
+    margin-left: 20px;
+}
+/* Image Persons */
+.itemsPersons img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* Galerry */
+
+.containerGalerry{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+.sectionGalerry h1{
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 30px 0;
+}
+.containerGalerry img{
+    max-width: 950px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 100%;
+    flex: 1 1 250px;
+}
+
+
+/* Footer */
+.sectionFooter{
+    background-color: #1d1d20;
+    height: 100px;
+    padding-top: 40px;
+}
+.sectionFooter p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    text-align: center;
+}

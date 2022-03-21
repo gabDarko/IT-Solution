@@ -1,0 +1,81 @@
+/* 
+    max-width 600px tudo que for menor que 600px
+*/
+
+@media (max-width: 700px){
+    /* Navegation Responsive */
+    nav{
+        flex-direction: column;
+        height: 150px;
+        position: relative;
+    }
+
+    /* Clients */
+    .sectionClient{
+        height: 620px;
+    }
+    .imageClient{
+        align-items: center;
+        flex-direction: column;
+    }
+    .imageClient img{
+        margin-bottom: 50px;
+    }
+
+    /* Info Section */
+    .containerInfo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sectionInfo{
+        height: 700px;
+    }
+    .textInfo span{
+        text-align: center;
+    }
+    .textInfo p{
+        text-align: center;
+    }
+    .textInfo i{
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .textInfo{
+        padding: 20px;
+    }
+
+    /* Product */
+    .sectionProduct{
+        height: 1250px;
+    }
+    .containerProduct{
+        flex-direction: column;
+    }
+    .itemsProduct{
+        text-align: center;
+        display: block;
+        padding: 20px;
+    }
+
+    /* Persons */
+    .sectionPersons{
+        height: 1080px;
+        padding: 30px;
+    }
+    .itemsPersons{
+        flex-direction: column;
+    }
+    .itemsPersons p{
+        padding: 20px;
+    }
+
+    /* Galerry */
+    .containerGalerry img{
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
